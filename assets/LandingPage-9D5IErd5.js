@@ -1,0 +1,1 @@
+import{j as e}from"./index-CGAEMqjm.js";const s="_sectionContainer_12ber_1",n={sectionContainer:s},t=()=>e.jsx("section",{className:n.sectionContainer,children:e.jsx("header",{className:n.sectionHeader,children:e.jsx("h1",{className:"bold-text-2",children:"hola"})})}),a=()=>e.jsx("main",{children:e.jsx(t,{})});export{a as default};
