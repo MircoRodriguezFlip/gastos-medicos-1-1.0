@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--background-color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    padding: 20px 0;
+}
+
+.footer img {
+    user-select: none;
+    pointer-events: none;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    user-select: none;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.footer a:hover {
+    color: var(--text-color);
+}
