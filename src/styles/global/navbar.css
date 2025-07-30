@@ -2,7 +2,7 @@
     position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: var(--background-color);
+    background: linear-gradient(95deg, #cec8c0, var(--background-color) 100%);
     color: var(--text-color);
     box-shadow: -4px 0 10px var(--shadow-color);
     height: 80px;
