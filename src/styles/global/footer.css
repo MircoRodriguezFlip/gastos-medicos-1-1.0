@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--background-color);
+    background: linear-gradient(95deg, #d6d4d1, var(--background-color) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;

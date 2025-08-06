@@ -95,7 +95,7 @@ export const useForm = (initialState, submitCallback) => {
                 estado: formData.estado,
             };
 
-            const response = await fetch('/backend/submit.php', {
+            const response = await fetch('http://localhost:5000/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formDataToSend),

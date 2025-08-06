@@ -1,3 +1,15 @@
+@keyframes saltar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .cargando-container {
     display: flex;
     flex-direction: column;
@@ -6,14 +18,19 @@
     text-align: center;
 }
 
+.cargando-container img {
+    animation: saltar 1s ease-in-out infinite;
+    width: 280px;
+}
+
 .cargando {
-    background-color: var(--background-color-3);
+    background: linear-gradient(95deg, #d6d4d1, var(--background-color) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: calc(100dvh - 100px);
+    min-height: 100dvh;
     padding-top: 80px;
     width: 100vw;
     overflow: hidden;

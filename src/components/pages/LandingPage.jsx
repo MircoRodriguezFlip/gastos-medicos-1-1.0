@@ -1,3 +1,5 @@
+import { TitleSEO } from '../utils/TitleSEO';
+
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -23,6 +25,8 @@ const LandingPage = () => {
 
     return (
         <main>
+            <TitleSEO title="GMM | Gastos Medicos Mayores" description="" canonical="https://gastosmedicosmayores.com.mx/" />
+
             <SectionLp1 />
 
             <section id="beneficios">
