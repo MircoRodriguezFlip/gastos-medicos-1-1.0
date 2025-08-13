@@ -33,7 +33,7 @@ const LandingPage = () => {
                 <SectionLp2 />
             </section>
 
-            <section id="simulador">
+            <section id="cotizar">
                 <SectionLp3 />
             </section>
         </main>

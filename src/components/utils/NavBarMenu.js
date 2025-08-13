@@ -8,11 +8,11 @@ export const navLinks = [
         dataLink: 'navbar-beneficios-link',
     },
     {
-        id: 'simulador',
-        to: '#simulador',
-        label: 'Simulador',
-        title: '¿Cuanto puede cubrir mi seguro de Gastos Médicos Mayores?',
-        dataLink: 'navbar-simulador-link',
+        id: 'cotizar',
+        to: '#cotizar',
+        label: 'Cotizar',
+        title: '¿Como cotizar mi seguro de Gastos Médicos Mayores?',
+        dataLink: 'navbar-cotizar-link',
     },
     {
         id: 'faq',

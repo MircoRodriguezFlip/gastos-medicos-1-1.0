@@ -2,11 +2,11 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 export const BotonNav = ({
-    to = '#registro',
-    ariaLabel = 'Ir a la sección de contacto de Mejoravit',
+    to = '/',
+    ariaLabel = 'Ir a la sección de registro',
     className = 'boton-1 bold-text',
-    title = 'Haz clic para ir a la sección de contacto',
-    children = '¡Simula tu crédito ahora!',
+    title = 'Haz clic para cotizar tu seguro de Gastos Médicos Mayores',
+    children = 'COTIZAR',
     dataCta,
     dataLink,
 }) => {
@@ -15,6 +15,14 @@ export const BotonNav = ({
 
     const handleClick = (e) => {
         e.preventDefault();
+
+        if (to === '#top') {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+            });
+            return;
+        }
 
         const esAncla = to.startsWith('#');
         const idDestino = to.replace('#', '');

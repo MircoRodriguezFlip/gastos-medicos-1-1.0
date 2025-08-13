@@ -1,58 +1,57 @@
 export const faqData = [
     {
         id: 1,
-        question: '¿Qué es el crédito Mejoravit y cómo funciona?',
-        answer: 'El crédito Mejoravit es un préstamo que otorga Infonavit para que puedas mejorar, remodelar o reparar tu vivienda. Utiliza el dinero acumulado en tu subcuenta de vivienda y puedes solicitarlo en línea. Es ideal si no deseas adquirir una casa nueva, sino optimizar tu vivienda actual.',
+        question: '¿Qué es Médica Life Familiar?',
+        answer: 'Médica Life Familiar es un plan de salud integral que ofrece acceso a servicios médicos, consultas ilimitadas, atención de urgencias, estudios de laboratorio y más, con el objetivo de cuidar la salud de toda tu familia de manera accesible y eficiente.',
     },
     {
         id: 2,
-        question: '¿Para qué se puede usar el crédito Mejoravit?',
-        answer: 'El crédito Mejoravit en efectivo te permite usar el dinero para cualquier mejora o reparación del hogar, desde pintura, instalación eléctrica, baños, cocinas, hasta ampliaciones. Tú decides en qué invertir tu saldo Mejoravit.',
+        question: '¿Cuáles son los beneficios principales?',
+        answer: `- Consultas médicas ilimitadas en consultorio y por videollamada.\n
+- Cobertura familiar para padres, hijos y cónyuge.\n
+- Descuentos especiales en farmacias y laboratorios.\n
+- Atención en urgencias sin costo adicional.\n
+- Red médica amplia con especialistas certificados.\n`,
     },
     {
         id: 3,
-        question: '¿Cuánto dinero me pueden prestar con Mejoravit?',
-        answer: 'El monto del préstamo Mejoravit depende de tu capacidad de pago, pero actualmente puede ir desde $9,461.28 hasta $163,000 pesos aproximadamente. Este rango lo determina tu precalificación Mejoravit y tu ahorro en Infonavit.',
+        question: '¿A quién está dirigido?',
+        answer: 'Está diseñado para familias que buscan atención médica continua y de calidad, sin depender de seguros costosos. Es ideal para quienes desean prevención, atención oportuna y un respaldo en emergencias.',
     },
     {
         id: 4,
-        question: '¿Necesito tener una casa a mi nombre para solicitar Mejoravit?',
-        answer: 'No necesitas tener una propiedad a tu nombre. Puedes usar el crédito Mejoravit para mejorar la vivienda en la que vives, siempre que tengas permiso del propietario. Es una gran opción si rentas o vives con familiares.',
+        question: '¿Cómo funciona?',
+        answer: 'Al contratar, recibirás tu membresía que te da acceso inmediato a nuestra red de médicos y especialistas. Solo presentas tu credencial o número de afiliación en los consultorios o llamas a nuestro centro de atención para coordinar tu cita o videollamada.',
     },
     {
         id: 5,
-        question: '¿Cómo se paga el crédito Mejoravit?',
-        answer: 'El pago del préstamo Mejoravit se realiza directamente vía nómina, es decir, se descuenta automáticamente de tu salario mensual, sin que tengas que preocuparte por hacer depósitos manuales.',
+        question: '¿Cuál es la diferencia con un seguro médico?',
+        answer: 'A diferencia de un seguro tradicional, Médica Life Familiar no requiere trámites de reembolso ni periodos de espera largos. Funciona como una membresía de salud con costos accesibles y beneficios inmediatos.',
     },
     {
         id: 6,
-        question: '¿Mejoravit afecta mi derecho a un crédito Infonavit para comprar casa?',
-        answer: 'No. Solicitar el crédito Mejoravit no impide que más adelante puedas acceder a un crédito Infonavit tradicional para comprar una vivienda. Ambos productos son compatibles en diferentes momentos.',
+        question: '¿Qué incluye la atención de urgencias?',
+        answer: 'Cubre la valoración médica y estabilización del paciente. Si se requiere hospitalización, recibirás tarifas preferenciales y acompañamiento en el proceso.',
     },
     {
         id: 7,
-        question: '¿Cuáles son los requisitos para obtener un crédito Mejoravit?',
-        answer: `Para acceder a Mejoravit en línea, debes cumplir con los siguientes requisitos:\n
-- Tener una relación laboral activa registrada en el IMSS.\n
-- Contar con al menos 4 bimestres cotizados.\n
-- Tener saldo en tu subcuenta de vivienda.\n
-- No tener un crédito activo con Infonavit.\n
-- Cumplir con la puntuación mínima exigida por Infonavit.`,
+        question: '¿Puedo usarlo fuera de mi ciudad?',
+        answer: 'Sí, siempre que acudas a un médico o centro de salud dentro de nuestra red nacional.',
     },
 
     {
         id: 8,
-        question: '¿Puedo solicitar el crédito Mejoravit más de una vez?',
-        answer: 'Sí. Puedes pedir un nuevo préstamo Mejoravit una vez que hayas terminado de pagar el anterior. Es una excelente opción para seguir mejorando tu hogar con el tiempo.',
+        question: '¿Tiene límite de uso?',
+        answer: 'No, puedes usar las consultas y servicios cubiertos tantas veces como lo necesites mientras tu membresía esté vigente.',
     },
     {
         id: 9,
-        question: '¿Cómo se entrega el dinero del crédito Mejoravit?',
-        answer: 'El dinero se deposita directamente en tu cuenta bancaria a través de una transferencia de Infonavit. Esto te permite tener acceso rápido y seguro a los fondos para tus mejoras.',
+        question: '¿Cómo puedo contratar?',
+        answer: 'Puedes hacerlo en línea, por teléfono o acudiendo a cualquiera de nuestros puntos de atención. Solo necesitas tus datos personales y los de tus beneficiarios.',
     },
     {
         id: 10,
-        question: '¿Puedo obtener el crédito Mejoravit si soy trabajador independiente?',
-        answer: 'No. El crédito Mejoravit solo está disponible para personas con empleo formal y registradas ante el IMSS. Si trabajas por tu cuenta, actualmente no puedes acceder a este financiamiento.',
+        question: '¿Qué formas de pago aceptan?',
+        answer: 'Aceptamos pagos con tarjeta de crédito, débito, transferencias y depósitos bancarios.',
     },
 ];

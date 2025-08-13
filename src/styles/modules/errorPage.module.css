@@ -1,5 +1,5 @@
 .sectionContainer {
-    background-color: var(--background-color-3);
+    background: linear-gradient(95deg, #d6d4d1, var(--background-color) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     color: var(--text-color);
     user-select: none;
     text-align: center;
-    width: 360px;
+    width: 320px;
 }
 
 .sectionTitulo h1 {
@@ -27,4 +27,10 @@
 
 .sectionTitulo p {
     margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+    .sectionTitulo {
+        width: 430px;
+    }
 }
