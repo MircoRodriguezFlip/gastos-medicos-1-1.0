@@ -23,7 +23,7 @@ function App() {
     }, []);
 
     return (
-        <BrowserRouter basename="gastos-medicos-1-1.0">
+        <BrowserRouter>
             <ScrollToTop />
 
             <NavBar />
